@@ -27,6 +27,8 @@
 (setq show-trailing-whitespace t)
 (setq suggest-key-bindings t)
 (setq vc-follow-symlinks t)
+(normal-erase-is-backspace-mode 0)
+(defalias 'yes-or-no-p 'y-or-n-p)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
